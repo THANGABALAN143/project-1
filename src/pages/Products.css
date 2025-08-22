@@ -1,0 +1,39 @@
+.products-container {
+  
+  padding: 30px;
+  font-family: 'Arial', sans-serif;
+  background-color: #6c84b900;
+  
+}
+
+.products-title {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.product-card {
+  background-color: rgb(26, 33, 177);
+  border: 1px solid #ddd;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+}
+
+.product-card h3 {
+  margin: 0;
+  color: #222;
+  font-size: 20px;
+}
+
+.product-card p {
+  margin: 5px 0 0;
+  color: #390fac;
+  font-size: 16px;
+}
